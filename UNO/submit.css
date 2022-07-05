@@ -1,0 +1,62 @@
+#body{
+    /* background-image: url(../UNO/images/bb.jpg);
+     */
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+h1{
+    font-size: 40px;
+    height: 279px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+#select{
+    width: 500px;
+    text-transform: capitalize;
+    background-color:white;
+    border: 1px solid black;
+    box-shadow: -2px 6px 73px black;
+}
+label{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 10px;
+    /* text-shadow: 39px 13px 36px #db91b8; */
+    text-shadow: -17px 1px 11px #db91b4;
+}
+
+::placeholder,button{
+    text-transform: capitalize;
+    color: black;
+}
+.btn{
+    width: 500px;
+    background-color: #E090B5;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    width: 500px;
+
+}
+#sub{
+    margin-top: 15px;
+    border-radius: -22px;
+    border-radius: 5px;
+    height: -28px;
+    height: 35px;
+    background-color: #E47399;
+    border: 1px solid black;
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#body{
+    /* background-color: black;
+     */
+    background-image: url(../UNO/images/a.jpg);
+    background-size: cover;
+    background-repeat:repeat-y;
+    color: white;
+    
+
+    text-transform: capitalize;
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -21%);
+    font-family: 'New Rocker', cursive;
+
+}
+.form .btn{
+    border-radius: 50%;
+    width: 60px;
+    height: 58px;
+    background-color: #692C5D;
+
+}
+.btn:hover {
+    background-color:thistle;
+    color: black;
+}
+ .btn:hover i{
+    color: black;
+}
+.btn i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: capitalize;
+
+}
+::placeholder , label{
+    text-transform: capitalize;
+
+
+}
+
+body h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 83px;
+    font-family: 'New Rocker', cursive;
+
+    
+}
+body h5{
+    position: absolute;
+    left: 50%;
+    top: 33%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: 'New Rocker', cursive;
+}

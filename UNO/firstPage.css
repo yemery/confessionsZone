@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('../UNO/images/b.jpg'); */
+    background-image: url('../UNO/images/aa.jpg');
+    background-size: cover;
+    color: white;
+}
+header  a {
+    text-decoration: none;
+    color: white;
+}
+header  ul{
+    list-style: none;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+header .container a{
+    /* font-family: 'Tapestry', cursive; */
+    /* font-size: 40px;
+     */
+         font-size: 35px;
+    color:white;
+    text-transform: capitalize;
+    
+    font-family: 'New Rocker', cursive;
+
+}
+
+header  .btn{
+    background-color: #692C5D;
+    width: 169px;
+    height: 53px;
+    border-radius: 43px;
+}
+
+
+header .form{
+    width: 557px;
+    height: 500px;
+    /* background-color: #692C5D; */
+    position: absolute;
+   /*  right: 100px;
+    top: 153px; */
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-31%);
+    color: white;
+    margin-top: 20px;
+
+}
+header .form .container{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+header .form .container p{
+    /* font-family: 'Permanent Marker', cursive;
+     */
+     font-family: 'Tapestry', cursive;
+
+    font-size: 39px;
+    color: black;
+    text-transform: capitalize;
+    /* position: relative;
+     */
+    
+
+}
+header .form .container p i{
+    font-size: 32px;
+    position: absolute;
+    top: 3px;
+    /* left: 1px; */
+    right: 191px;
+    
+}
+
+
+.form .btn{
+    border-radius: 50%;
+    width: 60px;
+    height: 58px;
+}
+header .btn:hover {
+    background-color: thistle;
+}
+header .btn:hover i{
+    color: black;
+}
+.btn i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: capitalize;
+    
+
+}
+::placeholder , label{
+    text-transform: capitalize;
+font-family: 'New Rocker', cursive;
+
+
+}
+
